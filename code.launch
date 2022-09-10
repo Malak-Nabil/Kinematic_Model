@@ -1,5 +1,0 @@
-<launch>
-<rosparam command="load" file="$(find package)/codes/code.yaml"/>
-
-<node name="back_node" pkg="package" type="code.py" output="screen"/>
-</launch>
